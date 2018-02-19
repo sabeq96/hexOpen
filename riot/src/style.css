@@ -1,0 +1,105 @@
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    min-width: 400px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.dataTable{
+    width: 40%;
+    min-height: 400px;
+    max-height: 70vh;
+    /* background-color: blue; */
+    padding: 10px;
+    padding-bottom: 10%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.singleStat{
+    padding: 2px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid black;
+}
+
+.chest{
+    width: 60%;
+    min-height: 400px;
+    max-height: 70vh;
+    /* background-color: brown; */
+    padding: 10px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.imageContent{
+    position: relative;
+}
+
+.chestImage{
+    width: auto;
+    max-width: 100%;
+    max-height: 60vh;
+}
+
+.skinName{
+    margin: 0 auto;
+    position: absolute;
+    color: white;
+    width: 100%;
+    bottom: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.chest button{
+    padding: 10px 20px;
+    background-color: #0158a0;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.chest button:hover{
+    background-color: #0098ac;
+}
+
+.dropBag{
+    width: 100%;
+    min-height: 30vh; /* Tymczasowo */
+    /* background-color: coral; */
+    padding: 4px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #999;
+}
+
+.skinIcon{
+    
+    width: calc(20% - 4px);
+    height: auto;
+    margin: 2px;
+}
+
+.footer{
+    border-top: 1px solid #999;
+    width: 100%;
+    /* background-color: royalblue; */
+
+    padding: 20px;
+}
